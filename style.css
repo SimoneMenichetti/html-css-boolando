@@ -82,7 +82,7 @@ main{
 
 
 
-/* PRIMA E SECONDA FILA */
+/* first row rules */
 div.row {
     width: 100%;
     margin-bottom: 1.5em;
@@ -100,23 +100,8 @@ div > img {
     width: 100%;
 }
 
-.heart {
-    font-size: 1em;
-    position: absolute;
-    top: 1em;
-    right: 0;
-    background-color: #ffffff;
-    padding: .1em .4em;
-}
 
-.hover-heart {
-    color: red; 
-    display: none;
-}
 
-.item:hover .hover-heart {
-    display: block;
-}
 
 .background-settings{
     font-weight: bold;
@@ -159,6 +144,7 @@ div > img {
     text-decoration: line-through;
 }
 
+/* hover img  */
 .hover-img {
     position: absolute;
     top: 0;
@@ -166,6 +152,25 @@ div > img {
 }
 
 .item:hover .hover-img{
+    display: block;
+}
+
+/* heart hover */
+.heart {
+    font-size: 1em;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    background-color: #ffffff;
+    padding: .1em .4em;
+}
+
+.hover-heart {
+    color: red; 
+    display: none;
+}
+
+.item:hover .hover-heart {
     display: block;
 }
 
