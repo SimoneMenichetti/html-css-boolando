@@ -76,15 +76,15 @@ a, li{
    
 }
 
-.model-a, .model-b, .model-c{
-    width: calc(100% / 3);
+
+    /* width: calc(100% / 3);
     margin: 20px 0;
     display: flex;
     
    
-}
+} */
 
-.model-a{
+/* .model-a{
     width: 100%;
     background-color: aqua;
     border: solid black;
@@ -100,6 +100,6 @@ a, li{
 .model-c{
     width: 100%;
     background-color: aqua;
-}
+} */
 
 
