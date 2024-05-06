@@ -13,45 +13,48 @@ a, li{
 }
 
 
-
 /* general settings section header nav */
 
 .top-containerflex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 
     
     /* DEBUG */
-    padding: 10px 0;
+ 
     min-width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: orange;
   
 }
 
 .topnav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 20px; 
+    width: 80%; 
 }
 
-.top-link, li ,a{
+.top-link, li, a{
     display: flex;
     color: #fff;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px;
 
 }
 
 .topnav .top-logo img{
-    max-width: 100px;
+    max-width: 70px;
 }
 
-.topnav, .top-icons, a{
+.top-icons, li, a{
+    display: flex;
+    color: #fff;
+    padding: 10px;
+
+}
 
 
 
    
-}
+
