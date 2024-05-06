@@ -66,7 +66,10 @@ a, li{
 /* add rules main content */
 
 /* all contenitor main */
-
+main{
+   margin-top: 100px;
+   margin-right: 50px;
+}
 .contentgallery{
     display: flex;
     justify-content: center;
@@ -76,30 +79,26 @@ a, li{
    
 }
 
-
-    /* width: calc(100% / 3);
-    margin: 20px 0;
-    display: flex;
-    
-   
-} */
-
-/* .model-a{
+.contentgallery.modelproduct{
     width: 100%;
-    background-color: aqua;
-    border: solid black;
+    margin-bottom: 1.5em;
+    margin-top: 60px;
 }
 
-.model-b{
+/* DEBUG PER FILA */
+.product{
+    display: inline-block;
+    width: calc(100%/3 - 4px);
+    vertical-align: top;
+    position: relative;
+}
+
+div > img {
     width: 100%;
-    background-color: aqua;
 }
 
 
 
-.model-c{
-    width: 100%;
-    background-color: aqua;
-} */
+
 
 
